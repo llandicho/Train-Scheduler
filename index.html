@@ -14,13 +14,13 @@
 	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 </head>
-<body> 
+<body style="background-color: #ECECED;"> 
 <div class="container">
 	
-<div style="color: black; font-size:46px; background-color: white; background-image: url(assets/images/bg-lego2.jpg); background-repeat: no-repeat; background-position: bottom left;" class="jumbotron" align="right">
+<div style="color: black; font-size:46px; background-color: white; background-image: url(assets/images/bg-lego2.jpg); background-repeat: no-repeat; background-position: bottom right;" class="jumbotron" align="left">
 
   <h1>TRAIN TIME!!!</h1>
-  <p>Tsuhh Tsuhh</p>
+  <h3>Tsuhh Tsuhh...</h3>
   
 </div>
 	
@@ -28,7 +28,7 @@
 		<div class="col-md-12">
 			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<h3 class="panel-title">Current Train Schedule</h3>
+					<h3 class="panel-title" style="color: black; font-size:28px; background-color: yellow;">Current Train Schedule</h3>
 				</div>
 	 			<div class="panel-body">
 					<table class="table table-hover table-responsive" id="trainTable" style="background-color: none !important; color: none">
@@ -52,7 +52,7 @@
 		<div class="col-md-12">
 			<div class="panel panel-primary">
 				<div class="panel-heading">
-					<h3 class="panel-title">Add Train</h3>
+					<h3 class="panel-title" style="color: white; font-size:28px; background-color: orange;">Add Train</h3>
 				</div>
 	 			<div class="panel-body">
 	 				<form>
@@ -65,11 +65,11 @@
 						    <input type="text" class="form-control" id="destInput">
 						</div>
 						<div class="form-group">
-						    <label class="nextTrain" for="nextTrain">First Train Time</label><label class="milTime">&nbsp;(HH:mm - Military)</label>
+						    <label class="nextTrain" for="nextTrain">First Train Time</label><label class="milTime">&nbsp;(in Military Time)</label>
 						    <input type="" class="form-control" id="timeInput">
 						</div>
 						<div class="form-group">
-						    <label for="minsAway">Frequency - (mins) </label>
+						    <label for="minsAway">Frequency (mins) </label>
 						    <input type="text" class="form-control" id="freqInput">
 						</div>
 
